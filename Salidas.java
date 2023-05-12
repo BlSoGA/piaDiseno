@@ -149,7 +149,7 @@ public class Salidas extends JFrame {
 		btnEntradas.setBounds(1073, 24, 146, 59);
 		contentPane.add(btnEntradas);
 		
-		JButton btnProductos_2 = new JButton("Graficas");
+		JButton btnProductos_2 = new JButton("Estad\u00EDsticas");
 		btnProductos_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2.setBounds(1073, 93, 146, 59);

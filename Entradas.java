@@ -137,7 +137,7 @@ public class Entradas extends JFrame {
 		btnSalidas.setBounds(748, 107, 146, 59);
 		getContentPane().add(btnSalidas);
 		
-		JButton btnProductos_2 = new JButton("Graficas");
+		JButton btnProductos_2 = new JButton("Estad\u00EDsticas");
 		btnProductos_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2.setBounds(904, 107, 146, 59);
