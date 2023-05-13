@@ -17,6 +17,7 @@ import javax.swing.ListSelectionModel;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.ImageIcon;
 
 public class Clientes extends JFrame {
 
@@ -60,7 +61,7 @@ public class Clientes extends JFrame {
 		JPanel panel_1 = new JPanel();
 		panel_1.setLayout(null);
 		panel_1.setBackground(Color.WHITE);
-		panel_1.setBounds(23, 64, 567, 656);
+		panel_1.setBounds(35, 92, 567, 656);
 		contentPane.add(panel_1);
 		
 		textField = new JTextField();
@@ -96,10 +97,11 @@ public class Clientes extends JFrame {
 		lblNewLabel_1_2.setBounds(24, 256, 123, 33);
 		panel_1.add(lblNewLabel_1_2);
 		
-		JButton btnNewButton = new JButton("Guardar");
+		JButton btnNewButton = new JButton("  Guardar");
+		btnNewButton.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\Save-as_37111.png"));
 		btnNewButton.setFont(new Font("Arial", Font.PLAIN, 14));
-		btnNewButton.setBackground(new Color(4, 138, 153));
-		btnNewButton.setBounds(105, 487, 123, 45);
+		btnNewButton.setBackground(new Color(255, 255, 255));
+		btnNewButton.setBounds(71, 435, 158, 78);
 		panel_1.add(btnNewButton);
 		
 		JLabel lblNewLabel_3_1 = new JLabel("Usuarios");
@@ -108,14 +110,8 @@ public class Clientes extends JFrame {
 		lblNewLabel_3_1.setForeground(Color.BLACK);
 		lblNewLabel_3_1.setFont(new Font("Arial Black", Font.BOLD, 40));
 		lblNewLabel_3_1.setBackground(new Color(0, 255, 64));
-		lblNewLabel_3_1.setBounds(0, 29, 567, 57);
+		lblNewLabel_3_1.setBounds(0, 27, 567, 57);
 		panel_1.add(lblNewLabel_3_1);
-		
-		JButton btnEditar = new JButton("Editar");
-		btnEditar.setFont(new Font("Arial", Font.PLAIN, 14));
-		btnEditar.setBackground(new Color(4, 138, 153));
-		btnEditar.setBounds(341, 487, 123, 45);
-		panel_1.add(btnEditar);
 		
 		textField_3 = new JTextField();
 		textField_3.setFont(new Font("Arial", Font.PLAIN, 14));
@@ -127,6 +123,13 @@ public class Clientes extends JFrame {
 		lblNewLabel_1_2_1.setFont(new Font("Arial", Font.PLAIN, 17));
 		lblNewLabel_1_2_1.setBounds(24, 322, 123, 33);
 		panel_1.add(lblNewLabel_1_2_1);
+		
+		JButton btnEditar = new JButton("  Editar");
+		btnEditar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\documentediting_editdocuments_text_documentedi_2820.png"));
+		btnEditar.setFont(new Font("Arial", Font.PLAIN, 14));
+		btnEditar.setBackground(Color.WHITE);
+		btnEditar.setBounds(309, 435, 154, 78);
+		panel_1.add(btnEditar);
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
@@ -170,6 +173,13 @@ public class Clientes extends JFrame {
 		lblNewLabel_3.setFont(new Font("Arial Black", Font.BOLD, 40));
 		lblNewLabel_3.setBounds(672, 23, 636, 64);
 		contentPane.add(lblNewLabel_3);
+		
+		JButton btnProductos_2_1_1 = new JButton("");
+		btnProductos_2_1_1.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\back_arrow_14447.png"));
+		btnProductos_2_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
+		btnProductos_2_1_1.setBackground(new Color(4, 138, 153));
+		btnProductos_2_1_1.setBounds(49, 10, 57, 59);
+		contentPane.add(btnProductos_2_1_1);
 		
 		
 	}

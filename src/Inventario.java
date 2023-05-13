@@ -17,6 +17,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JSpinner;
 import javax.swing.SwingConstants;
+import javax.swing.ImageIcon;
 
 public class Inventario extends JFrame {
 
@@ -100,6 +101,7 @@ public class Inventario extends JFrame {
 		textField.setColumns(10);
 		
 		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\xmag_search_find_export_locate_5984.png"));
 		btnBuscar.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnBuscar.setBackground(new Color(4, 138, 153));
 		btnBuscar.setBounds(57, 363, 146, 59);
@@ -164,7 +166,8 @@ public class Inventario extends JFrame {
 		panel_1.add(lblNewLabel_2_1);
 		lblNewLabel_2_1.setFont(new Font("Arial", Font.PLAIN, 17));
 		
-		JButton btnGuardar = new JButton("Guardar");
+		JButton btnGuardar = new JButton("  Guardar");
+		btnGuardar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\Save-as_37111.png"));
 		btnGuardar.setBounds(80, 353, 146, 59);
 		panel_1.add(btnGuardar);
 		btnGuardar.setFont(new Font("Arial", Font.PLAIN, 14));
@@ -181,10 +184,11 @@ public class Inventario extends JFrame {
 		lblNewLabel_1.setBounds(300, 30, 391, 106);
 		contentPane.add(lblNewLabel_1);
 		
-		JButton btnProductos_2_1_1 = new JButton("Atr\u00E1s");
+		JButton btnProductos_2_1_1 = new JButton("");
+		btnProductos_2_1_1.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\back_arrow_14447.png"));
 		btnProductos_2_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1_1.setBackground(new Color(4, 138, 153));
-		btnProductos_2_1_1.setBounds(81, 41, 146, 59);
+		btnProductos_2_1_1.setBounds(81, 41, 74, 59);
 		contentPane.add(btnProductos_2_1_1);
 	}
 

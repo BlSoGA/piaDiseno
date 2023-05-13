@@ -178,9 +178,10 @@ public class Registro extends JFrame {
 		panel_1.add(lblNewLabel_2_1);
 		lblNewLabel_2_1.setFont(new Font("Arial", Font.PLAIN, 17));
 		
-		JButton btnNewButton = new JButton("Guardar");
+		JButton btnNewButton = new JButton("  Guardar");
+		btnNewButton.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\Save-as_37111.png"));
 		btnNewButton.setBackground(new Color(4, 138, 153));
-		btnNewButton.setBounds(110, 506, 123, 45);
+		btnNewButton.setBounds(110, 506, 154, 57);
 		panel_1.add(btnNewButton);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -197,16 +198,18 @@ public class Registro extends JFrame {
 		lblNewLabel_3_1.setForeground(Color.BLACK);
 		lblNewLabel_3_1.setFont(new Font("Arial Black", Font.BOLD, 40));
 		
-		JButton btnEditar = new JButton("Editar");
+		JButton btnEditar = new JButton("  Editar");
+		btnEditar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\documentediting_editdocuments_text_documentedi_2820.png"));
 		btnEditar.setBackground(new Color(4, 138, 153));
-		btnEditar.setBounds(336, 506, 123, 45);
+		btnEditar.setBounds(336, 506, 141, 57);
 		panel_1.add(btnEditar);
 		btnEditar.setFont(new Font("Arial", Font.PLAIN, 14));
 		
-		JButton btnProductos_2_1_1 = new JButton("Atr\u00E1s");
+		JButton btnProductos_2_1_1 = new JButton("");
+		btnProductos_2_1_1.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\back_arrow_14447.png"));
 		btnProductos_2_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1_1.setBackground(new Color(4, 138, 153));
-		btnProductos_2_1_1.setBounds(10, 10, 146, 59);
+		btnProductos_2_1_1.setBounds(33, 10, 81, 59);
 		contentPane.add(btnProductos_2_1_1);
 	}
 }

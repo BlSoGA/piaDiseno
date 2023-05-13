@@ -15,6 +15,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.SystemColor;
 import javax.swing.SwingConstants;
+import javax.swing.ImageIcon;
 
 public class Graficas extends JFrame {
 
@@ -42,6 +43,7 @@ public class Graficas extends JFrame {
 	 * Create the frame.
 	 */
 	public Graficas() {
+		setTitle("Estadisticas");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1113, 646);
 		contentPane = new JPanel();
@@ -131,10 +133,11 @@ public class Graficas extends JFrame {
 		btnSalidas.setBounds(769, 79, 146, 59);
 		contentPane.add(btnSalidas);
 		
-		JButton btnProductos_2_1_1 = new JButton("Atr\u00E1s");
+		JButton btnProductos_2_1_1 = new JButton("");
+		btnProductos_2_1_1.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\back_arrow_14447.png"));
 		btnProductos_2_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1_1.setBackground(new Color(4, 138, 153));
-		btnProductos_2_1_1.setBounds(24, 30, 146, 59);
+		btnProductos_2_1_1.setBounds(63, 30, 57, 59);
 		contentPane.add(btnProductos_2_1_1);
 		
 		JLabel lblNewLabel_1 = new JLabel("Estadisticas");

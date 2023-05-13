@@ -17,6 +17,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.SwingConstants;
+import javax.swing.ImageIcon;
 
 public class Entradas extends JFrame {
 	private JTable table;
@@ -92,6 +93,7 @@ public class Entradas extends JFrame {
 		panel.add(textField);
 		
 		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\xmag_search_find_export_locate_5984.png"));
 		btnBuscar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
@@ -155,10 +157,11 @@ public class Entradas extends JFrame {
 		lblNewLabel_1.setBounds(247, 61, 391, 106);
 		getContentPane().add(lblNewLabel_1);
 		
-		JButton btnProductos_2_1_1 = new JButton("Atr\u00E1s");
+		JButton btnProductos_2_1_1 = new JButton("");
+		btnProductos_2_1_1.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\back_arrow_14447.png"));
 		btnProductos_2_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1_1.setBackground(new Color(4, 138, 153));
-		btnProductos_2_1_1.setBounds(45, 38, 146, 59);
+		btnProductos_2_1_1.setBounds(61, 38, 71, 59);
 		getContentPane().add(btnProductos_2_1_1);
 	}
 
