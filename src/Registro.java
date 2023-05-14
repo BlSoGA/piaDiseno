@@ -179,6 +179,7 @@ public class Registro extends JFrame {
 		lblNewLabel_2_1.setFont(new Font("Arial", Font.PLAIN, 17));
 		
 		JButton btnNewButton = new JButton("  Guardar");
+		btnNewButton.setForeground(new Color(255, 255, 255));
 		btnNewButton.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\Save-as_37111.png"));
 		btnNewButton.setBackground(new Color(4, 138, 153));
 		btnNewButton.setBounds(110, 506, 154, 57);
@@ -199,6 +200,7 @@ public class Registro extends JFrame {
 		lblNewLabel_3_1.setFont(new Font("Arial Black", Font.BOLD, 40));
 		
 		JButton btnEditar = new JButton("  Editar");
+		btnEditar.setForeground(new Color(255, 255, 255));
 		btnEditar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\documentediting_editdocuments_text_documentedi_2820.png"));
 		btnEditar.setBackground(new Color(4, 138, 153));
 		btnEditar.setBounds(336, 506, 141, 57);

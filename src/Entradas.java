@@ -93,6 +93,7 @@ public class Entradas extends JFrame {
 		panel.add(textField);
 		
 		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setForeground(new Color(255, 255, 255));
 		btnBuscar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\xmag_search_find_export_locate_5984.png"));
 		btnBuscar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -128,24 +129,28 @@ public class Entradas extends JFrame {
 		panel.add(textField_2);
 		
 		JButton btnEntradas = new JButton("Entradas");
+		btnEntradas.setForeground(new Color(255, 255, 255));
 		btnEntradas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnEntradas.setBackground(new Color(4, 138, 153));
 		btnEntradas.setBounds(904, 38, 146, 59);
 		getContentPane().add(btnEntradas);
 		
 		JButton btnSalidas = new JButton("Salidas");
+		btnSalidas.setForeground(new Color(255, 255, 255));
 		btnSalidas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnSalidas.setBackground(new Color(4, 138, 153));
 		btnSalidas.setBounds(748, 107, 146, 59);
 		getContentPane().add(btnSalidas);
 		
 		JButton btnProductos_2 = new JButton("Estad\u00EDsticas");
+		btnProductos_2.setForeground(new Color(255, 255, 255));
 		btnProductos_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2.setBounds(904, 107, 146, 59);
 		getContentPane().add(btnProductos_2);
 		
 		JButton btnProductos_2_1 = new JButton("Productos");
+		btnProductos_2_1.setForeground(new Color(255, 255, 255));
 		btnProductos_2_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1.setBackground(new Color(4, 138, 153));
 		btnProductos_2_1.setBounds(748, 38, 146, 59);

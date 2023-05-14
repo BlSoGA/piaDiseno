@@ -22,6 +22,7 @@ public class Graficas extends JFrame {
 	private JPanel contentPane;
 	private JTable table;
 	private JTable table_1;
+	private JTable table_2;
 
 	/**
 	 * Launch the application.
@@ -81,6 +82,29 @@ public class Graficas extends JFrame {
 		panel.setBackground(new Color(255, 255, 255));
 		panel.setBounds(415, 172, 578, 408);
 		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		table_2 = new JTable();
+		table_2.setBounds(67, 45, 339, 102);
+		table_2.setModel(new DefaultTableModel(
+			new Object[][] {
+				{"ID", "Producto"},
+				{null, null},
+				{null, null},
+				{null, null},
+			},
+			new String[] {
+				"New column", "New column"
+			}
+		));
+		table_2.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+		table_2.setFont(new Font("Arial", Font.PLAIN, 17));
+		table_2.setFillsViewportHeight(true);
+		table_2.setColumnSelectionAllowed(true);
+		table_2.setCellSelectionEnabled(true);
+		table_2.setBorder(new CompoundBorder(null, new LineBorder(new Color(0, 0, 0), 1, true)));
+		table_2.setBackground(Color.WHITE);
+		panel.add(table_2);
 		
 		table_1 = new JTable();
 		table_1.setBounds(64, 234, 271, 112);
@@ -110,24 +134,28 @@ public class Graficas extends JFrame {
 		table_1.setBackground(Color.WHITE);
 		
 		JButton btnProductos_2_1 = new JButton("Productos");
+		btnProductos_2_1.setForeground(new Color(255, 255, 255));
 		btnProductos_2_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1.setBackground(new Color(4, 138, 153));
 		btnProductos_2_1.setBounds(769, 10, 146, 59);
 		contentPane.add(btnProductos_2_1);
 		
 		JButton btnEntradas = new JButton("Entradas");
+		btnEntradas.setForeground(new Color(255, 255, 255));
 		btnEntradas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnEntradas.setBackground(new Color(4, 138, 153));
 		btnEntradas.setBounds(925, 10, 146, 59);
 		contentPane.add(btnEntradas);
 		
 		JButton btnProductos_2 = new JButton("Estadisticas");
+		btnProductos_2.setForeground(new Color(255, 255, 255));
 		btnProductos_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2.setBounds(925, 79, 146, 59);
 		contentPane.add(btnProductos_2);
 		
 		JButton btnSalidas = new JButton("Salidas");
+		btnSalidas.setForeground(new Color(255, 255, 255));
 		btnSalidas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnSalidas.setBackground(new Color(4, 138, 153));
 		btnSalidas.setBounds(769, 79, 146, 59);
@@ -147,13 +175,15 @@ public class Graficas extends JFrame {
 		lblNewLabel_1.setBounds(310, 10, 391, 106);
 		contentPane.add(lblNewLabel_1);
 		
-		JButton btnProductos_2_1_2 = new JButton("Ventas");
+		JButton btnProductos_2_1_2 = new JButton("Devoluciones");
+		btnProductos_2_1_2.setForeground(new Color(255, 255, 255));
 		btnProductos_2_1_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2_1_2.setBounds(33, 428, 146, 59);
 		contentPane.add(btnProductos_2_1_2);
 		
 		JButton btnEntradas_1 = new JButton("Grafica");
+		btnEntradas_1.setForeground(new Color(255, 255, 255));
 		btnEntradas_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnEntradas_1.setBackground(new Color(4, 138, 153));
 		btnEntradas_1.setBounds(189, 428, 146, 59);

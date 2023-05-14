@@ -14,6 +14,7 @@ import javax.swing.border.LineBorder;
 import javax.swing.ListSelectionModel;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.ImageIcon;
 
 public class Salidas extends JFrame {
 
@@ -54,6 +55,7 @@ public class Salidas extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton btnProductos_2_1_1 = new JButton("Atr\u00E1s");
+		btnProductos_2_1_1.setForeground(new Color(255, 255, 255));
 		btnProductos_2_1_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1_1.setBackground(new Color(4, 138, 153));
 		btnProductos_2_1_1.setBounds(27, 24, 146, 59);
@@ -75,14 +77,14 @@ public class Salidas extends JFrame {
 		table = new JTable();
 		table.setModel(new DefaultTableModel(
 			new Object[][] {
-				{"ID", "Producto", "Fecha", "Cantidad"},
-				{null, null, null, null},
-				{null, null, null, null},
-				{null, null, null, null},
-				{null, null, null, null},
+				{"ID", "Producto", "Fecha", "Precio Unitario", "Cantidad"},
+				{null, null, null, null, null},
+				{null, null, null, null, null},
+				{null, null, null, null, null},
+				{null, null, null, null, null},
 			},
 			new String[] {
-				"New column", "New column", "New column", "New column"
+				"New column", "New column", "New column", "New column", "New column"
 			}
 		));
 		table.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
@@ -108,6 +110,8 @@ public class Salidas extends JFrame {
 		panel.add(textField);
 		
 		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setForeground(new Color(255, 255, 255));
+		btnBuscar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\Diseño\\piaDiseno\\Imagenes\\xmag_search_find_export_locate_5984.png"));
 		btnBuscar.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnBuscar.setBackground(new Color(4, 138, 153));
 		btnBuscar.setBounds(461, 273, 146, 59);
@@ -138,24 +142,28 @@ public class Salidas extends JFrame {
 		panel.add(textField_2);
 		
 		JButton btnProductos_2_1 = new JButton("Productos");
+		btnProductos_2_1.setForeground(new Color(255, 255, 255));
 		btnProductos_2_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1.setBackground(new Color(4, 138, 153));
 		btnProductos_2_1.setBounds(917, 24, 146, 59);
 		contentPane.add(btnProductos_2_1);
 		
 		JButton btnEntradas = new JButton("Entradas");
+		btnEntradas.setForeground(new Color(255, 255, 255));
 		btnEntradas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnEntradas.setBackground(new Color(4, 138, 153));
 		btnEntradas.setBounds(1073, 24, 146, 59);
 		contentPane.add(btnEntradas);
 		
 		JButton btnProductos_2 = new JButton("Estad\u00EDsticas");
+		btnProductos_2.setForeground(new Color(255, 255, 255));
 		btnProductos_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2.setBounds(1073, 93, 146, 59);
 		contentPane.add(btnProductos_2);
 		
 		JButton btnSalidas = new JButton("Salidas");
+		btnSalidas.setForeground(new Color(255, 255, 255));
 		btnSalidas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnSalidas.setBackground(new Color(4, 138, 153));
 		btnSalidas.setBounds(917, 93, 146, 59);

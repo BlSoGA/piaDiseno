@@ -44,6 +44,7 @@ public class Invent extends JFrame {
 	 * Create the frame.
 	 */
 	public Invent() {
+		setTitle("Inventario");
 		setBackground(new Color(224, 243, 242));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1341, 856);
@@ -62,24 +63,28 @@ public class Invent extends JFrame {
 		contentPane.add(btnProductos_2_1_1);
 		
 		JButton btnEntradas = new JButton("Entradas");
+		btnEntradas.setForeground(new Color(255, 255, 255));
 		btnEntradas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnEntradas.setBackground(new Color(4, 138, 153));
 		btnEntradas.setBounds(1091, 21, 146, 59);
 		contentPane.add(btnEntradas);
 		
 		JButton btnSalidas = new JButton("Salidas");
+		btnSalidas.setForeground(new Color(255, 255, 255));
 		btnSalidas.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnSalidas.setBackground(new Color(4, 138, 153));
 		btnSalidas.setBounds(935, 90, 146, 59);
 		contentPane.add(btnSalidas);
 		
 		JButton btnProductos_2 = new JButton("Estadísticas");
+		btnProductos_2.setForeground(new Color(255, 255, 255));
 		btnProductos_2.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2.setBackground(new Color(4, 138, 153));
 		btnProductos_2.setBounds(1091, 90, 146, 59);
 		contentPane.add(btnProductos_2);
 		
 		JButton btnProductos_2_1 = new JButton("Productos");
+		btnProductos_2_1.setForeground(new Color(255, 255, 255));
 		btnProductos_2_1.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnProductos_2_1.setBackground(new Color(4, 138, 153));
 		btnProductos_2_1.setBounds(935, 21, 146, 59);
@@ -121,6 +126,7 @@ public class Invent extends JFrame {
 		panel_1.add(lblNewLabel_2_1);
 		
 		JButton btnGuardar = new JButton("  Guardar");
+		btnGuardar.setForeground(new Color(255, 255, 255));
 		btnGuardar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\Save-as_37111.png"));
 		btnGuardar.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnGuardar.setBackground(new Color(4, 138, 153));
@@ -173,10 +179,17 @@ public class Invent extends JFrame {
 		panel.add(textField_2);
 		
 		JButton btnBuscar = new JButton("Buscar");
+		btnBuscar.setForeground(new Color(255, 255, 255));
 		btnBuscar.setIcon(new ImageIcon("C:\\Users\\DELL\\Desktop\\sofy\\Diseño\\piaDiseno\\Imagenes\\xmag_search_find_export_locate_5984.png"));
 		btnBuscar.setFont(new Font("Arial", Font.PLAIN, 14));
 		btnBuscar.setBackground(new Color(4, 138, 153));
 		btnBuscar.setBounds(57, 363, 146, 59);
 		panel.add(btnBuscar);
+		
+		JLabel lblNewLabel_3 = new JLabel("Productos");
+		lblNewLabel_3.setForeground(Color.BLACK);
+		lblNewLabel_3.setFont(new Font("Arial Black", Font.BOLD, 40));
+		lblNewLabel_3.setBounds(429, 45, 242, 64);
+		contentPane.add(lblNewLabel_3);
 	}
 }
